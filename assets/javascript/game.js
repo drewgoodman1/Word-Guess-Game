@@ -79,7 +79,7 @@ function playGame(letterGuess){
     if(wordStatus.join("") === currentWord){
         wins++;        
         console.log("You Win");
-        document.getElementById("notify").innerHTML = "You win!";
+        document.getElementById("notify").innerHTML = "You win! Press any letter to start again";
         document.getElementById("showWins").innerHTML = wins;
         isPlaying = false;
 
@@ -95,7 +95,7 @@ function playGame(letterGuess){
 
         if(guessesRemaining === 0){
         console.log("You lose!");
-        document.getElementById("notify").innerHTML = "You lose!";
+        document.getElementById("notify").innerHTML = "You lose! Press any letter to start again";
         isPlaying = false;
         }
     } 

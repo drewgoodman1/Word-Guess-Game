@@ -1,0 +1,29 @@
+#firstBackground{
+    background-image: url("../images/Titanium.jpg");
+    
+}
+.jumbotron{
+    margin-top: 25px;
+    border-radius: 25px;      
+}
+
+.scoreBoard{
+    margin-top: 25px;
+    border-radius: 25px;
+    background: #e9ecef;
+    margin-bottom: 30px;
+    padding: 25px;
+
+}
+
+.card{
+    margin-left: 20px;
+}
+
+.card-img-top{
+    border-bottom: solid 5px #99b;
+}
+
+#showGuess, #alreadyGuessed{
+    letter-spacing: 3px;
+}

@@ -11,19 +11,41 @@
     <title>Document</title>
 </head>
 <body>
-        <h1>Word Guess Game</h1>
-        <h2>Guess any letter to start!</h2>        
+        <div id="firstBackground">
+                <div class="container">
+                        <div class="row">
+                          <div class="col-sm-8">
+                                <div class="jumbotron jumbotron-fluid">
+                                        <div class="container">
+                                          <h1 class="display-4">Word Guess Game</h1>
+                                            <div id="showGuess"></div>
 
-        <div id="showGuess">Guess</div>
+                                            <div id="turnsLeft">Guesses left</div>
 
-        <div id="turnsLeft">Guesses left</div>
+                                            <div id="alreadyGuessed"></div>                                                
 
-        <div id="alreadyGuessed">Already guessed</div>
+                                            <div id="notify">win/loss</div>
 
-        <div id="notify">win/loss</div>
+                                            <div id="showWins">how many wins</div>
+                                        </div>
+                                </div>
+                          </div>
+                          <div class="scoreBoard col-sm-4">
+                                <div class="card" style="width: 18rem;">
+                                        <img src="assets/images/isle-of-dogs.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <p class="card-text">Guess any letter to start!</p>
+                                        </div>
+                                </div>
+                          </div>
+                        </div>
+                </div>
+                
+        </div>
+               
 
-        <div id="showWins">how many wins</div>
-
+        
+        </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
