@@ -8,7 +8,7 @@ var wordStatus = [];
 var showBadGuess = [];
 
 // Creates array of possible words
-var wordSet = ["duck","frog","tiger","eagle","cat","lizard"]; 
+var wordSet = ["duke","boss","sport","king","nutmeg","atari","rendevouz"]; 
 
 
 function startGame(letterGuess){
@@ -23,7 +23,7 @@ function startGame(letterGuess){
     var match1 = false;   
 
     //set and check currentWord
-    currentWord = wordSet[Math.floor(Math.random() * 6)]; 
+    currentWord = wordSet[Math.floor(Math.random() * 8)]; 
        
     isPlaying = true;
     //console.log(isPlaying);
